@@ -26,7 +26,7 @@ function App(){
         <img src={ai} alt="" id='ai'/>
         
         }
-        <p>{prompt}</p>
+        <p className='prompt'>{prompt}</p>
       </div>
       }
         

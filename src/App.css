@@ -93,6 +93,7 @@ button:active::after {
 p{
     font-size: 1vmax;
     color: white;
+    padding: 20px;
 }
 .response{
     display: flex;
@@ -103,6 +104,5 @@ p{
 }
 #ai{
     width: 50vh;
-    height: 100px;
+    height: 89px;
 }
-
