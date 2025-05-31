@@ -27,7 +27,7 @@ function UserContext({children}){
             .replace(/hi dora/gi, "")
             .trim();
         let text = await run(txt);
-        let newText=text.split("*")&&text.split("*")&&text.replace("google","Dora")&&text.replace("Google","Dora")
+        let newText=text.split("*")&&text.split("*")&&text.replace("google","Dora")&&text.replace("Google","Dora")&& text.split("* **")&& text.split("**");
         setPrompt(newText)
         speak(newText)
         setResponse(true)
